@@ -8,3 +8,9 @@ En este curso se aprende a crear layouts dinámicos desde cero. Se utilizan prop
 
 ## Este es mi Proyecto:
 - https://gridbasico.netlify.app
+
+### Visualización Desktop
+![vista desktop de website hecho con grid basico](vistaDesktopGridBasico.png)
+
+### Visualización Movil
+![vista movil de website hecho con grid basico](vistaMovilGridBasico.png)
