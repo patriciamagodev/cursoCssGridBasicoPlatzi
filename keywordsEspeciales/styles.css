@@ -1,0 +1,19 @@
+.contenedor {
+    border: 5px solid limegreen;
+    background-color: lightgreen;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+}
+
+.contenedor-2 {
+    border: 5px solid limegreen;
+    background-color: lightgreen;
+    display: grid;
+    margin-top: 100px;
+    grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
+}
+
+.item {
+    border: 5px solid green;
+    font-size: 2rem;
+}

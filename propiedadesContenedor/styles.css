@@ -1,0 +1,28 @@
+.contenedor {
+    
+    display: grid;
+    grid-template-rows: 100px 100px 100px;
+    grid-auto-columns: 100px;
+    grid-auto-flow: column;
+    gap: 20px;
+}
+
+.item {
+    color: white;
+    display: flex;
+    justify-content: flex-end;
+    align-items: end;
+    font-size: 4rem;
+}
+
+.item:nth-child(1), .item:nth-child(4) {
+    background-color: lime;
+}
+
+.item:nth-child(2), .item:nth-child(5) {
+    background-color: limegreen;
+}
+
+.item:nth-child(3), .item:nth-child(6) {
+    background-color: green;
+}

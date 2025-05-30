@@ -1,0 +1,19 @@
+.contenedor {
+    background-color: green;
+    display: grid;
+    grid-gap: 15px;
+    grid-template-columns: 100px 100px;
+    height: 500px;
+    width: 500px;
+    justify-content: end;
+    align-content: end;
+    
+}
+
+.item {
+    border: 25px solid limegreen;
+    background-color: lime;
+    font-size: 4rem;
+    display: grid;
+    justify-content: center;
+}

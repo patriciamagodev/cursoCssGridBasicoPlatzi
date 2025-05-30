@@ -1,0 +1,12 @@
+.contenedor {
+    border: 5px solid limegreen;
+    background-color: lightgreen;
+    display: grid;
+    grid-template-columns: minmax(30px, 300px) 200px minmax(60px, 250px);
+    grid-template-rows: repeat(3, auto);
+}
+
+.item {
+    border: 5px solid green;
+    font-size: 2rem;
+}
